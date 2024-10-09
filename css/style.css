@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+
+}
+
+.logo, .inizia {
+    width: 20%;
+    min-height: 50px;
+    background-color: white;
+}
+
+
+.container {
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.section1 {
+    background-color: lightgrey;
+    height: 400px;
+}
+
+.box-container {
+    padding-top: 80px;
+    display: flex;
+}
+
+.first-box {
+    width: 40%;
+    background-color: darkblue;
+    min-height: 300px;
+}
+
+.second-box {
+    width: 60%;
+    background-color: grey;
+    min-height: 300px;
+}
+
+.container-1 {
+    width: 60%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+hr {
+    margin-top: 80px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-top: 150px;
+    min-height: 300px;
+}
+
+.col1, .col2, .col3 {
+    width: calc((100% - 20px) / 3);
+    background-color: lightslategray;
+    min-height: 300px;
+}
+
+.card-col {
+    margin-top: 50px;
+    min-height: 150px;
+}
+
+.team-section-top {
+    background-color: darkolivegreen;
+    min-height: 30px;
+}
+.team-section-bottom {
+    display: flex;
+}
+
+.third-box {
+    width: 70%;
+    margin: 30px;
+    background-color: darkred;
+    min-height: 150px;
+}
+
+.fourth-box {
+    width: 40%;
+    margin: 30px;
+    background-color: darkgray;
+}
+
+.col4, .col5, .col6 {
+    width: calc((100% - 20px) / 3 );
+    background-color: darkblue;
+    min-height: 500px;
+}
+
+.link-section {
+    margin: 90px 0;
+    background-color: lightblue;
+    min-height: 150px;
+}
+
+
+footer {
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.footer {
+    width: 100%;
+    background-color: green;
+    min-height: 300px;
+}
