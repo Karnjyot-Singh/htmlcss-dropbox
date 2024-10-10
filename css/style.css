@@ -8,16 +8,43 @@
     padding: 20px;
     display: flex;
     justify-content: space-between;
-    background-color: blue;
+    align-items: center;
+    background-color: white;
 
+}
+
+ul {
+ list-style: none;
+}
+
+.header ul {
+    display: flex;
 }
 
 .logo, .inizia {
-    width: 20%;
+    width: 30%;
     min-height: 50px;
     background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 20px;
 }
 
+a {
+    margin-left: 20px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.login-button {
+   padding: 10px;
+   margin-left: 20px;
+   text-size-adjust: 20px;
+   background-color: blue;
+   color: white;
+   width: 70px;
+}
 
 .container {
     width: 80%;
